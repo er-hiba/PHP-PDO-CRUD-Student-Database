@@ -51,14 +51,11 @@ if (isset($_POST['edit'])) {
         }
     </style>
 </head>
-
 <body>
-
 <?php 
-$currentPage = '';
-include 'header.php' 
-?>
-
+    $currentPage = '';
+    include 'header.php' 
+    ?>
 <div id='d2'>
     <form method="POST" action="">
     <label for="name" class="form-label"> Name: </label>
@@ -69,7 +66,6 @@ include 'header.php'
     <button type="submit" name="edit">Edit</button>
     </form>
 </div>
-
 </body>
-
 </html>
+

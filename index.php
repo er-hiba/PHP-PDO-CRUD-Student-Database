@@ -3,6 +3,8 @@ include 'db.php';
 
 $stmt = $conn->query("SELECT ID, name, email FROM student"); 
 $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
+//print_r($data);
+
 ?>
 
 <!DOCTYPE html>

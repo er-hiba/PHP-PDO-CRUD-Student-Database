@@ -62,11 +62,12 @@ if ((!empty($name)) && (!empty($email))){
     
     header('Location: index.php');
 } else {
-    ?>
+        ?>
         <div class="alert alert-danger" role="alert" style="width: 400px; margin: 15px 0 0 50px">
-            Required fields 
-        </div>
-    <?php
-}
+        Required fields 
+    </div>
+        <?php
+    }
 }
 ?>
+
